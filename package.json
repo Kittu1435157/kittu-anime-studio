@@ -1,0 +1,12 @@
+{
+  "name": "kittu-anime-studio",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.8.1",
+  "scripts": {
+    "dev": "pnpm --filter @kittu/web dev",
+    "build": "pnpm --filter @kittu/web build",
+    "lint": "pnpm --filter @kittu/web lint",
+    "typecheck": "pnpm --filter @kittu/web typecheck"
+  }
+}
